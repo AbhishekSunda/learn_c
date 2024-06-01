@@ -1,0 +1,1 @@
+// Write a program to read a string and an integer from the user and print them.

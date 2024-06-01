@@ -1,0 +1,1 @@
+// Write a program to read a string and print the string's length and the first and last characters of the string.

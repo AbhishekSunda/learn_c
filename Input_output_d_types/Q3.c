@@ -1,14 +1,11 @@
 // Write a program to read a character from the user and print its ASCII value.
 
-#include<stdio.h> ? explain this line also
+#include<stdio.h>
 int main(){
-    char c;  ?explain this line also.
-    //asking the user to enter  a character
+    char c;
     printf("Enter a character: ");
-    //reading a character from the user
     scanf("%c", &c);
-    
-    //print the ascii value of the character
-    printf("the ASCII value of %c is %d\n", c, c);
+
+    printf("The ASCII value of %c is %d", c, c);
 return 0;
 }

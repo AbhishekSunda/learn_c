@@ -6,6 +6,6 @@ int main(){
     printf("Enter integer value: ");
     scanf("%d", &i);
 
-    printf("The value of integer = %d\n", i);
+    printf("Entered integer value is %d\n", i);
 return 0;
 }

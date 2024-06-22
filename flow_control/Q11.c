@@ -1,0 +1,1 @@
+// Write a program to read two integers and a character representing an arithmetic operation (+, -, *, /). Perform the operation using a switch statement and print the result. Handle the case of division by zero.

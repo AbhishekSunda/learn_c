@@ -1,0 +1,1 @@
+// Write a program to read a string and count the number of vowels and consonants using a while loop. Store the counts in an array where the first element is the number of vowels and the second element is the number of consonants.

@@ -4,7 +4,7 @@ int main(){
     int i;
     printf("Enter an integer value: ");
     scanf("%d", &i);
-    char c = i;
+    char c = (char)i;
     printf("Entered integer value = %d\n", i);
     printf("Character of casted integer value = %c\n", c);
 return 0;

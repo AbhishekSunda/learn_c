@@ -5,7 +5,7 @@ int main(){
     printf("Enter double floating-point number\n");
     scanf("%lf", &number);
     printf("Entered double floating-point value = %lf\n", number);
-    int x = number;
+    int x = (int)number; // typecasting
     printf("Casted integer value of double = %d\n", x);
 return 0;
 }

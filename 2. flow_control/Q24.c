@@ -27,6 +27,6 @@ int main(){
     }
     printf("Number of positive values = %d\n", positive);
     printf("Number of negative values = %d\n", negative);
-    printf("Number of zero values = %d\n", zero);
+    printf("Number of zeroes = %d\n", zero);
 return 0;
 }

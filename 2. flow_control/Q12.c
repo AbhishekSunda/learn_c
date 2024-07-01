@@ -14,5 +14,6 @@ int main(){
         printf("Entered number is negative.\n");
     }
     else printf("Entered number is zero.\n");
+    
 return 0;
 }

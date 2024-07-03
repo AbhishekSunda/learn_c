@@ -1,9 +1,10 @@
 // Write a program to read an array of n integers and find the maximum and minimum values in the array using a for loop.
 #include<stdio.h>
 int main(){
-    int array[10],n,i,maximum,minimum;
+    int n,i,maximum,minimum;
     printf("Number of elements in the array = ");
     scanf("%d", &n);
+    int array[n];
 
     for ( i = 0; i < n; i++)
     {

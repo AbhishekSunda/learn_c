@@ -10,6 +10,9 @@
 
 int sumOfDigits(int n){
     int sum = 0, remainder;
+    if (n < 0){
+        n = n * -1;
+    }
     while (n != 0)
     {
         remainder = n % 10;

@@ -5,3 +5,25 @@
     // Example:\n
     // Input: 1234\n
     // Output: Sum of digits = 10\n
+
+#include<stdio.h>
+
+int sumOfDigits(int n){
+    int sum = 0, remainder;
+    while (n != 0)
+    {
+        remainder = n % 10;
+        n = n / 10;
+        sum += remainder;
+    }
+    return sum;
+}
+
+int main(){
+    int number;
+    printf("Enter a integer number : ");
+    scanf("%d", &number);
+
+    printf("Sum of digits of %d = %d\n", number, sumOfDigits(number));
+    return 0;
+}

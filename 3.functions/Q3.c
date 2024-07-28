@@ -5,3 +5,21 @@
     // Example:\n
     // Input: 100 C\n
     // Output: 212 F\n
+
+#include<stdio.h>
+
+float celsiusToFahrenheit(float celsius){
+    // F = (9/5)C + 32.
+    float Fahrenheit;
+    Fahrenheit = (float)(celsius * 9 / 5) + 32;
+    return Fahrenheit;
+}
+
+int main(){
+    float degreeCelsius;
+    printf("Enter temperature in degree Celsius : ");
+    scanf("%f", &degreeCelsius);
+
+    printf("Temperature in degree Fahrenheit = %.1f\n", celsiusToFahrenheit(degreeCelsius));
+    return 0;
+}
